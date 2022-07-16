@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.div-clear{
+    clear: both;
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.65%;}
+.col-6{width: 50%;}
+.col-7{width: 58.31%;}
+.col-8{width: 66.64%;}
+.col-9{width: 75%;}
+.col-10{width: 83.30%;}
+.col-11{width: 91.63%;}
+.col-12{width: 100%;}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.meno{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo h1{
+    color: rgb(233, 184, 93);
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav ul li{
+    padding: 5px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: red;
+    padding: 8px;
+}
+.nav ul li a:hover{
+    color: white;
+    transition: 1s;
+    padding: 8px;
+}
+
+
+.slideimg{ 
+    width: 100%;
+    height: 100vh;
+    margin-top: 20px;
+    background: url(./img/slide.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.side-text{
+    position: relative;
+    width: 400px;
+    height: 100vh;
+    background: rgb(20, 19, 19,0.5);
+    float: right;
+   
+}
+.text-area{
+    position: absolute;
+    top: 50vh;
+    right: 0;
+    text-align: center;
+   
+}
+
+.side-text h1{
+    text-align: center;
+    color: rgb(251, 175, 33);
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+.side-text p{
+   text-align: center;
+   color: white;
+   text-transform: uppercase;
+   margin-top: 5px;
+}
+.my-style{
+    width: 150px;
+    height: 30px;
+    border: none;
+    background: rgb(226, 88, 88);
+    color: white;
+    border-radius: 15px;
+    text-transform: capitalize;
+}
+
+/* our-service start here */
+
+.our-service h1{
+    color: red;
+    font-weight: 1000;
+    font-family: cursive;
+    text-align: center;
+
+}
+.horizon{
+width: 100px;
+border: none;
+background: red;
+margin: auto;
+}
+
+.header-desc{
+    margin-top: 5px;
+    font-size: small;
+    text-align: center;
+}
+
+
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   
+    
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    height: 350px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-top: 30px;
+  }
+
+  .card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    height: 380px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-top: 30px;
+    transition: 1s;
+  }
+.card img{
+    width: 70px;
+    margin: auto;
+  }
+.card h1{
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+.title {
+    color: grey;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+
+
+
+
+  /* start who we are? */
+.my-style-h1{
+        color: red;
+        text-align: center;
+        font-family: cursive;
+   }
+
+.slide-imeges img{
+        width: 400px;
+        border-radius: 10px;
+   }
+
+.slide-imeges img:hover{
+    width: 450px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.text-slide{
+    text-align: justify;
+}
+.my-style-here{
+    justify-content: center;
+}
+.my-style-here img{
+    width: 90px;
+    
+}
+
+
+
+.our-portfolio{
+    background:red;
+    border-radius: 0px 20px 0px 20px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    
+}
+.our-portfolio h1{
+    text-transform: uppercase;
+}
+
+.my-style-{
+    display: flex;
+    justify-content: center;
+}
+
+.my-style- img{
+    width: 250px;
+
+}
+ 
+.my-style- img:hover{
+    width: 500px;
+    transition-property: none ;
+    transition: 1s;
+}
+ 
+  

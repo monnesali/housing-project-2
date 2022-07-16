@@ -1,0 +1,1 @@
+document.getElementById("").innerHTML = 12+23;
